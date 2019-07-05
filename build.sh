@@ -1,3 +1,3 @@
-export $PATH=/home/circleci/.local/bin
+export PATH=/home/circleci/.local/bin:$PATH
 pip install -r requirements.txt --user
 pytest
